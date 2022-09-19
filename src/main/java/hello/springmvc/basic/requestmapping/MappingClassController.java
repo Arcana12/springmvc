@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/mapping/users")
-public class MappingCalssController {
+public class MappingClassController {
 
     @GetMapping
     public String user(){
